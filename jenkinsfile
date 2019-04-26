@@ -3,8 +3,9 @@ pipeline{
 	stages{
 		stage('Starting'){
 			steps{
-				sh 'echo starting....'
+				sh'echo starting...'
 			}
 		}
 	}
+
 }
